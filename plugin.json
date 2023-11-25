@@ -1,10 +1,10 @@
 {
-    "name": "My plugin",
+    "name": "Cat Eyes",
     "version": "0.0.1",
-    "description": "Description of my_plugin.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/my_plugin",
-    "tags": "cat, template, example",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/my_plugin.png"
+    "description": "The Cat Eyes to describe the images you send to him.",
+    "author_name": "zAlweNy26",
+    "author_url": "https://github.com/zAlweNy26",
+    "plugin_url": "https://github.com/Furrmidable-Crew/cat_eyes",
+    "tags": "cat, eyes, vision, images, description",
+    "thumb": "https://raw.githubusercontent.com/Furrmidable-Crew/cat_eyes/logo.png"
 }
