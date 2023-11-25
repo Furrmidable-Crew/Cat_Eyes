@@ -30,6 +30,7 @@ def rabbithole_instantiates_parsers(file_handlers: dict, cat) -> dict:
 
     if settings == {}:
         log.error("No configuration found for CatEyes")
+        cat.send_ws_message("You did not configure the API key for the vision API!", "notification")
         return new_file_handlers
 
     new_file_handlers["image/png"] = ImageParser(settings["api_key"])
