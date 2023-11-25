@@ -1,6 +1,6 @@
 {
     "name": "Cat Eyes",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A plugin that describes the images you send to the Cat. The accepted image formats are: `png`, `jpeg`, `jpg`, `webp`, `gif`.",
     "author_name": "zAlweNy26",
     "author_url": "https://github.com/zAlweNy26",
