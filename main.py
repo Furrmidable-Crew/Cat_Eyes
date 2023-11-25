@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field
 from cat.log import log
 from cat.mad_hatter.decorators import hook, plugin
-from cat.plugins.cat_eyes.image_parser import ImageParser
+from .image_parser import ImageParser
 
 class Settings(BaseModel):
     api_key: str = Field(title="API Key", description="The API key for OpenAI's vision API.", default="")
