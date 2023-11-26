@@ -18,9 +18,7 @@ class ImageParser(BaseBlobParser):
 
         binary_data = blob.as_bytes()
 
-        blob_size = len(binary_data)
-
-        if blob_size > 20 * 1000000:
+        if len(binary_data) > 20 * 1000000:
             content = "The image is too large for OpenAI to process."
         else:
             base64_image = base64.b64encode(binary_data).decode('utf-8')
